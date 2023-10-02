@@ -6,7 +6,7 @@ class Solution {
     }
 
     public String build(String s) {
-        Stack<Character> ans = new Stack();
+        Stack<Character> ans = new Stack<>();
         for (char c: s.toCharArray()) {
             if (c != '#')
                 ans.push(c);
