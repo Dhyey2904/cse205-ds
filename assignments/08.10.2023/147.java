@@ -28,5 +28,14 @@ class S147 {
             temp = temp.next;
         }
         return count;
-    }  
+    }
+    class ListNode{
+    int val;
+    int min;
+    ListNode next;
+    ListNode prv;
+    public ListNode(int val){
+        this.val=val;
+    }
+}
 }
